@@ -1,0 +1,7 @@
+torch
+librosa
+scipy
+numpy
+tqdm
+pandas
+torchmetrics
