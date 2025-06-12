@@ -2,7 +2,13 @@
 
 Baseline for APSIPA ASC 2025 GC.
 
-This Challenge aims to push the boundaries of computational audition by tackling one of its most compelling problems: effectively classifying acoustic scenes under significant domain shifts.
+The APSIPA ASC 2025 GC (City and Time-Aware Semi-supervised Acoustic Scene Classification) 
+extends the work of the ICME 2024 GC (Semi-supervised Acoustic Scene Classification under Domain Shift), 
+which addressed the challenge of generalizing across different cities. 
+This year's challenge explicitly incorporates city-level location and timestamp metadata for each audio sample, 
+encouraging participants to design models that leverage both geographic and temporal context. 
+It maintains the semi-supervised learning setting, reflecting real-world scenarios where large amounts of unlabeled data coexist with limited labeled examples. 
+Participants are invited to develop innovative methods that combine audio content with contextual information to enhance classification performance and robustness.
 
 ## Challenge Website
 [APSIPA ASC 2025 GC](https://www.apsipa2025.org/wp/grand-challenge/)  
@@ -13,7 +19,7 @@ This Challenge aims to push the boundaries of computational audition by tackling
 
 ## Updates
 
-**2025-June-05 The challenge has started and the development dataset is available.**
+**2025-June-15 The challenge has started and the development dataset is available.**
 
 
 ## Official Baseline
@@ -24,7 +30,7 @@ This Challenge aims to push the boundaries of computational audition by tackling
 ```shell
 conda create -n ASC python=3.10
 conda activate ASC
-git clone git@github.com:JishengBai/APSIPA2025ASC.git; cd APSIPA2025ASC
+git clone git@github.com:JishengBai/APSIPA2025GC-ASC.git; cd APSIPA2025GC-ASC
 pip install -r requirement.txt
 ```  
 
@@ -58,7 +64,7 @@ python test.py
       eprint={2402.02694},
       archivePrefix={arXiv},
       primaryClass={eess.AS}
-}
+    }
 ```
 ```bibtex
 @ARTICLE{9951400,
@@ -68,9 +74,8 @@ python test.py
   year={2023},
   volume={15},
   number={3},
-  pages={1501-1513},
-  keywords={Task analysis;Acoustics;Computational modeling;Speech recognition;Transformers;Pattern recognition;Computer architecture;Attention mechanism;cross-task model;data augmentation;environmental sound recognition (ESR)},
-  doi={10.1109/TCDS.2022.3222350}}
+  pages={1501-1513}
+  }
 ```
 
 
