@@ -20,7 +20,7 @@ Participants are invited to develop innovative methods that combine audio conten
 ## Updates
 
 **2025-June-15 The challenge has started and the development dataset is available.**
-
+**2025-July-22 The metadata of the evaluation dataset is available.**
 
 ## Official Baseline
 
